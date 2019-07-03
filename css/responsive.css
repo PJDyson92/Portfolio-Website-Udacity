@@ -1,0 +1,28 @@
+/* responsive stylesheet so the webpage looks nice and neat on any device */
+@media screen and (max-width: 792px) {
+    .column {
+        width: 46%;
+    }
+    .column3 {
+        width:95%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 95%;
+    }
+    .column3 {
+        width: 95%
+    }
+}
+/* made a max-width and margin left and right auto so the webpage main webpage doesn't stretch out far */
+@media screen and (min-width: 1200px) {
+    html {
+        width: 100%; 
+    }
+    head, body {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
